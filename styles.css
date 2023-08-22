@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    max-width: 50%;
+    float: right;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.table-container {
+    overflow-x: auto;
+}
+
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 5px;
+    }
+}
+.menu{
+    float: none;
+}
+ .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:orange;
+    color: white;
+   
+    
+}
+.btn:hover,
+.btn:focus {
+    opacity: 0.8;
+}
+nav ul {
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    background-color: #f2f2f2;  
+    text-decoration: none;
+    color: #333;
+    grid-template-rows: none;
